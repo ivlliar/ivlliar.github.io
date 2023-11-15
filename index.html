@@ -19,12 +19,12 @@
                     <img src="img/logo.svg" alt="logo">
                 </div>
                 <div class="header_icons">
-                    <a href="регистрация">Регистрация</a>
-                    <a href="регистрация">Вход</a>
+                    <a href="#openModal">Регистрация</a>
+                    <a href="регистрация"><span>Вход</span></a>
                 </div>
             </div>
-            <div class="header_img">
-                <img src="img/Rectangle 4.svg" alt="liniya">
+            <div class="menu_hr">
+                <hr>
             </div>
         </div>
     </header>
@@ -33,10 +33,22 @@
             <div class="data">
                 Сентябрь, 2023
             </div>
-            <button type="button" class="button">
-                + Добавить фото
-            </button>
+            <a class="button" href="#">
+                <img src="img/+.svg" alt="+">
+                Добавить фото
+            </a>
         </div>
+    </div>
+
+    <div id="openModal" class="modal">
+        <div class="modal-window">
+            <div class="title">
+                <a href="#">Регистрация</a>
+                <a href="#"> <div class="aut"> Авторизация </div> </a>
+            </div>
+            <a href="#close" title="Close" class="close">×</a>
+        </div>
+
     </div>
 
     <div class="container">
@@ -70,14 +82,15 @@
 
 
     <div class="container">
-        <button type="button" class="button1">
+        <a class="button1" href="#">
+            <img src="img/arrow.svg">
             Показать ещё
-        </button>
+        </a>
     </div>
     <footer>
         <div class="container">
-            <div class="footer_img">
-                <img src="img/Rectangle 4.svg" alt="liniya">
+            <div class="menu_hr">
+                <hr>
             </div>
             <div class="header_wrap">
                 <div class="footer">
@@ -90,6 +103,7 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
